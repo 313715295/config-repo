@@ -57,7 +57,7 @@ spring:
       time-between-eviction-runs-millis: 60000
 #      是否共享 prepared 语句，也就是是否两次请求相同的语句而不会关闭对相同底层 prepared 语句的使用。
       share-prepared-statements: true
-      filters: stat,wall
+      filters: stat,wall,log4j
 #      打开PSCache，并且指定每个连接上PSCache的大小,PSCache对支持游标的数据库性能提升巨大，比如说oracle。在mysql下建议关闭。
 #      poolPreparedStatements: true
 #      maxOpenPreparedStatements: 100
