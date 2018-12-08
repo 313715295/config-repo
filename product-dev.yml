@@ -22,9 +22,9 @@ mybatis-plus:
 spring:
   datasource:
     druid:
-      url: jdbc:mysql://127.0.0.1:3306/product?useUnicode=true&characterEncoding=UTF-8
+      url: jdbc:mysql://118.25.96.248/xiaobu?useSSL=false&jdbcCompliantTruncation=false&characterEncoding=UTF-8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull
       username: root
-      password: 910810
+      password: k3QG^EqW
       driver-class-name: com.mysql.jdbc.Driver
 #     配置druid web页面账号密码
 #      stat-view-servlet:
