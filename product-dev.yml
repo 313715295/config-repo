@@ -18,7 +18,7 @@ mybatis-plus:
 #     逻辑未删除值,(逻辑删除下有效)
       logic-not-delete-value: 0
 #     字段策略 ignore:"忽略判断",not_null:"非 NULL 判断"),not_empty:"非空判断"
-      field-strategy: ignored
+      field-strategy: not_null
 spring:
   datasource:
     druid:
